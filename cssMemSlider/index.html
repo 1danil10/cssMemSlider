@@ -5,9 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cssMemSlider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
+  <body class="page">
+    <div class="slider">
+      <input
+        class="visually-hidden slider__input"
+        type="radio"
+        name="slider-slide-number"
+        id="slide1"
+        checked
+      />
+      <div class="slide">
+        <img
+          class="slide__img"
+          draggable="false"
+          src="./images/catdealer_1280.webp"
+          alt=""
+        />
+        <p class="slide__text">
+          He will be amazed when he will se. <br />
+          That I sold the dog for a high price on ebay
+        </p>
+      </div>
+      <input
+        class="visually-hidden slider__input"
+        type="radio"
+        name="slider-slide-number"
+        id="slide2"
+      />
+      <div class="slide">
+        <img
+          class="slide__img"
+          draggable="false"
+          src="./images/catgrumpy_1280.webp"
+          alt=""
+        />
+        <p class="slide__text">
+          I love math. <br />
+          It makes people cry
+        </p>
+      </div>
+      <input
+        class="visually-hidden slider__input"
+        type="radio"
+        name="slider-slide-number"
+        id="slide3"
+      />
+      <div class="slide">
+        <img
+          class="slide__img"
+          draggable="false"
+          src="./images/fry_1280.webp"
+          alt=""
+        />
+        <p class="slide__text">
+          Shut up and <br />
+          Take my money
+        </p>
+      </div>
+      <input
+        class="visually-hidden slider__input"
+        type="radio"
+        name="slider-slide-number"
+        id="slide4"
+      />
+      <div class="slide">
+        <img
+          class="slide__img"
+          draggable="false"
+          src="./images/mechanic_1280.webp"
+          alt=""
+        />
+        <p class="slide__text">
+          You gotta do <br />
+          What you gotta do
+        </p>
+      </div>
+      <input
+        class="visually-hidden slider__input"
+        type="radio"
+        name="slider-slide-number"
+        id="slide5"
+      />
+      <div class="slide">
+        <img
+          class="slide__img"
+          draggable="false"
+          src="./images/professor_1280.webp"
+          alt=""
+        />
+        <p class="slide__text">
+          I don't want to live <br />
+          On this planet anymore
+        </p>
+      </div>
+      <input
+        class="visually-hidden slider__input"
+        type="radio"
+        name="slider-slide-number"
+        id="slide6"
+      />
+      <div class="slide">
+        <img
+          class="slide__img"
+          draggable="false"
+          src="./images/simpsons_1280.webp"
+          alt=""
+        />
+        <p class="slide__text">
+          To start <br />
+          Press any key
+        </p>
+      </div>
+
+      <div class="slider__controls">
+        <label class="slider__label" for="slide1"></label>
+        <label class="slider__label" for="slide2"></label>
+        <label class="slider__label" for="slide3"></label>
+        <label class="slider__label" for="slide4"></label>
+        <label class="slider__label" for="slide5"></label>
+        <label class="slider__label" for="slide6"></label>
+      </div>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
