@@ -12,14 +12,14 @@ html {
 
 .visually-hidden {
   white-space: nowrap;
-  width: 1px;
-  height: 1px;
+  width: 0.063rem;
+  height: 0.063rem;
   overflow: hidden;
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  margin: -1px;
+  margin: -0.063rem;
 }
 
 .page {
@@ -42,12 +42,12 @@ html {
   overflow: hidden;
   background-color: #34486a;
   padding: 1rem min(4rem, 10vw);
-  border-radius: 10px;
-  width: min(90%, 1024px);
+  border-radius: 0.625rem;
+  width: min(90%, 64rem);
 }
 
 .slider__controls {
-  --offsetX: 5px;
+  --offsetX: 0.313rem;
   grid-row: 2/3;
   grid-column: 2/3;
   align-self: start;
@@ -59,8 +59,8 @@ html {
   transform: translateX(var(--offsetX));
   border-color: transparent;
   border-style: solid;
-  border-width: 2px;
-  border-radius: 10px;
+  border-width: 0.125rem;
+  border-radius: 0.625rem;
   transition: border-color 0.3s;
 }
 
@@ -107,7 +107,7 @@ html {
   width: 100%;
   max-height: 60vh;
   place-self: center center;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   user-select: none;
 }
 
@@ -256,7 +256,7 @@ html {
 
   70% {
     transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(255, 177, 66, 0);
+    box-shadow: 0 0 0 0.625rem rgba(255, 177, 66, 0);
   }
 
   100% {
